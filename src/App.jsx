@@ -12,7 +12,7 @@ function usePageTracking() {
   const [activeSection, setActiveSection] = useState('HOME');
 
   useEffect(() => {
-    if (location.pathname === '/') {
+    if (location.pathname === '/e-portfolio') {
       setActiveSection('HOME');
     } else if (location.pathname === '/portfolio') {
       setActiveSection('PORTFOLIO');
