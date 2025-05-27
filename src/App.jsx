@@ -48,7 +48,7 @@ function AppContent() {
           <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
             <li>
               <Link 
-                to="/"
+                to="/e-portfolio"
                 onClick={() => {
                   setActiveSection('HOME');
                   setIsMenuOpen(false);
